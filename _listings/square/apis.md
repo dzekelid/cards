@@ -21,17 +21,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Delete V2 Customers Customer Cards Card
-  description: Delete v2 customers customer cards card.
+- name: Square Connect API Post Me Timecards
+  description: Creates a timecard for an employee. Each timecard corresponds to a
+    single shift.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Cards
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/v2-customers-customer-id-cards-card-id-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/v2-customers-customer-id-cards-card-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-post.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
