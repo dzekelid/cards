@@ -32,7 +32,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-get-postman.md
+- name: Square Connect API Put Me Timecards
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
+  humanURL: https://squareup.com
+  baseURL: https://connect.squareup.com/v1/
+  tags: Cards
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-put.md
 x-common:
+- type: x-base
+  url: https://connect.squareup.com
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/square
+- type: x-developer
+  url: https://connect.squareup.com/
+- type: x-github
+  url: https://github.com/square
+- type: x-twitter
+  url: https://twitter.com/Square
+- type: x-website
+  url: https://squareup.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
