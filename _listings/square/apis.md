@@ -32,19 +32,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-get-postman.md
-- name: Square Connect API Delete Me Timecards
-  description: Deletes a timecard. Deleted timecards are still accessible from Connect
-    API endpoints, but the value of their deleted field is set to true. See Handling
-    deleted timecards for more information.
+- name: Square Connect API Get Me Timecards Events
+  description: Provides summary information for all events associated with a particular
+    timecard.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Cards
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-events-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-events-get-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
