@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customers-customer-cards-get.md
-- name: Stripe Get Customers Customer Cards
-  description: Get Customers, Customer, Cards
+- name: Stripe Add Customers Customer Cards
+  description: Post Customers, Customer, Cards
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Cards
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customers-customer-cards-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customers-customer-cards-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customers-customer-cards-id-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
