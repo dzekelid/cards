@@ -21,22 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post V2 Customers Customer Cards
-  description: |-
-    Adds a card on file to an existing customer. In the United States
-    Square takes care of automatically updating any cards on file that might
-    have expired since you first attached them to a customer.
-
-    As with charges, calls to `CreateCustomerCard` are idempotent. Multiple
-    calls with the same card nonce return the same card record that was created
-    with the provided nonce during the _first_ call.
+- name: Square Connect API Delete V2 Customers Customer Cards Card
+  description: Delete v2 customers customer cards card.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Cards
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/v2-customers-customer-id-cards-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/v2-customers-customer-id-cards-card-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/v2-customers-customer-id-cards-card-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
