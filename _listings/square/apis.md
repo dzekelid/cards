@@ -32,17 +32,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-get-postman.md
-- name: Square Connect API Put Me Timecards
-  description: Modifies a timecard's details. This creates an API_EDIT event for the
-    timecard. You can view a timecard's event history with the List Timecard Events
-    endpoint.
+- name: Square Connect API Delete Me Timecards
+  description: Deletes a timecard. Deleted timecards are still accessible from Connect
+    API endpoints, but the value of their deleted field is set to true. See Handling
+    deleted timecards for more information.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Cards
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/square/me-timecards-timecard-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
