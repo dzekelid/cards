@@ -1,5 +1,6 @@
 ---
 name: Bank of Ireland
+x-slug: bank-of-ireland
 description: Bank of Ireland Group plc is a public limited company incorporated in
   Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered number
   593672. Bank of Ireland Group plc, whose shares are listed on the main markets of
@@ -7,28 +8,40 @@ description: Bank of Ireland Group plc is a public limited company incorporated 
   company of Bank of Ireland.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- UK Banks
-- UK Bank
-- ATMs
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Cards
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Bank of Ireland Get Commercial Credit Cards
+  x-api-slug: bank-of-ireland
   description: This endpoint can contain multiple brands owned by a particular banking
     group. Each brand can own multiple SME Commercial Credit Card products.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
+  humanURL: https://www.bankofireland.com/
+  baseURL: https://openapi.bankofireland.com/open-banking/v2.1//commercial-credit-cards/
+  tags: Commercial, Credit, Cards
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/commercialcreditcards-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/commercialcreditcards-get-openapi.md
+- name: Bank of Ireland
+  x-api-slug: bank-of-ireland
+  description: Bank of Ireland Group plc is a public limited company incorporated
+    in Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered
+    number 593672. Bank of Ireland Group plc, whose shares are listed on the main
+    markets of the Irish Stock Exchange plc and the London Stock Exchange plc , is
+    the holding company of Bank of Ireland.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
   humanURL: https://www.bankofireland.com/
   baseURL: https://openapi.bankofireland.com/open-banking/v2.1/
   tags: Cards
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/commercial-credit-cards-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/commercial-credit-cards-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/openapi.md
 x-common:
 - type: x-developer
   url: http://openbankingapis.io/ireland/bank-of-ireland
