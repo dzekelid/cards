@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-
 x-kinRank: "8"
 x-alexaRank: "11016"
 tags: Cards
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/santander-bank/apis.md
 specificationVersion: "0.14"
 apis:
