@@ -9,76 +9,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Cards
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Get Customers Customer Cards
-  x-api-slug: stripe
+- name: Stripe - Get Customers Customer Cards
+  x-api-slug: customerscustomercards-get
   description: Get Customers, Customer, Cards
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///customers/{customer}/cards
-  tags: Customers, Customer, Cards
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercards-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercards-get-openapi.md
-- name: Stripe Add Customers Customer Cards
-  x-api-slug: stripe
-  description: Post Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///customers/{customer}/cards
-  tags: Customers, Customer, Cards
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercards-post-openapi.md
-- name: Stripe Delete Customers Customer Cards
-  x-api-slug: stripe
-  description: Delete Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///customers/{customer}/cards/{id}
-  tags: Customers, Customer, Cards
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-delete-openapi.md
-- name: Stripe Get Customers Customer Cards
-  x-api-slug: stripe
+- name: Stripe - Get Customers Customer Cards
+  x-api-slug: customerscustomercardsid-get
   description: Get Customers, Customer, Cards
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///customers/{customer}/cards/{id}
-  tags: Customers, Customer, Cards
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-get-openapi.md
-- name: Stripe Add Customers Customer Cards
-  x-api-slug: stripe
-  description: Post Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///customers/{customer}/cards/{id}
-  tags: Customers, Customer, Cards
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-post-openapi.md
-- name: Stripe
-  x-api-slug: stripe
-  description: Web and mobile payments, built for developers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1/
-  tags: Cards
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stride.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog
