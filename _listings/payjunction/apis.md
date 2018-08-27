@@ -10,11 +10,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "147448"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/apis.md
 specificationVersion: "0.14"
 apis:
+- name: PayJunction API Basic - Put Customers Vaults Card Vault
+  x-api-slug: customerscustomeridvaultscardvault-put
+  description: /customers/{customerid}/vaults/{vaultid} (card).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.png
+  humanURL: http://payjunction.com/
+  baseURL: https://example.com//
+  tags: Syndication, Commerce, Payments, Pos, Retail, Payments, Target, Credit, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/customerscustomeridvaultscardvault-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/customerscustomeridvaultscardvault-put-openapi.md
+- name: PayJunction API Basic - Put Customers Vaults Card Vault
+  x-api-slug: customerscustomeridvaultscardvault-put
+  description: /customers/{customerid}/vaults/{vaultid} (card).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.png
+  humanURL: http://payjunction.com/
+  baseURL: https://example.com//
+  tags: Syndication, Commerce, Payments, Pos, Retail, Payments, Target, Credit, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/customerscustomeridvaultscardvault-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/customerscustomeridvaultscardvault-put-openapi.md
+- name: PayJunction API Basic - Put Customers Vaults Card Vault
+  x-api-slug: customerscustomeridvaultscardvault-put
+  description: /customers/{customerid}/vaults/{vaultid} (card).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.png
+  humanURL: http://payjunction.com/
+  baseURL: https://example.com//
+  tags: Syndication, Commerce, Payments, Pos, Retail, Payments, Target, Credit, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/customerscustomeridvaultscardvault-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/customerscustomeridvaultscardvault-put-openapi.md
 - name: PayJunction API Basic - Put Customers Vaults Card Vault
   x-api-slug: customerscustomeridvaultscardvault-put
   description: /customers/{customerid}/vaults/{vaultid} (card).

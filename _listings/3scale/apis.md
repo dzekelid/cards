@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
@@ -64,6 +64,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/adminapiaccountsidcredit-card-xml-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/adminapiaccountsidcredit-card-xml-put-openapi.md
+- name: 3Scale Account Management API - Account Set Credit Card
+  x-api-slug: adminapiaccountsidcredit-card-xml-put
+  description: Account set credit card.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/adminapiaccountsidcredit-card-xml-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/adminapiaccountsidcredit-card-xml-put-openapi.md
+- name: 3Scale Account Management API - Account Delete Credit Card
+  x-api-slug: adminapiaccountsidcredit-card-xml-delete
+  description: Account delete credit card.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/adminapiaccountsidcredit-card-xml-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/adminapiaccountsidcredit-card-xml-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io

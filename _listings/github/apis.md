@@ -8,11 +8,36 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GitHub - Get Repos Owner Repo Stats Punch Card
+  x-api-slug: reposownerrepostatspunch-card-get
+  description: |-
+    Get the number of commits per hour in each day.
+    Each array contains the day number, hour number, and number of commits
+    0-6 Sunday - Saturday
+    0-23 Hour of day
+    Number of commits
+
+    For example, [2, 14, 25] indicates that there were 25 total commits, during
+    the 2.00pm hour on Tuesdays. All times are based on the time zone of
+    individual commits.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/github/reposownerrepostatspunch-card-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/github/reposownerrepostatspunch-card-get-openapi.md
 - name: GitHub - Get Repos Owner Repo Stats Punch Card
   x-api-slug: reposownerrepostatspunch-card-get
   description: |-

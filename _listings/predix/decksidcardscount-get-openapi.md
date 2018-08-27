@@ -6,6 +6,7 @@ info:
   title: Predix Views Counts cards of Deck.
   version: 1.0.0
   description: Counts cards of deck..
+host: thetaray-anomaly-service.run.aws-usw02-pr.ice.predix.io
 basePath: /v1
 schemes:
 - http

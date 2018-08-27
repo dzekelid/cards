@@ -1,0 +1,432 @@
+{
+	"name": "Streadata.io API Gallery - Cards",
+	"description": "This is a repository of cards APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/cards.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://cards.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayJunction",
+			"x-api-slug": "payjunction",
+			"description": "PayJunction is a Level 1 PCI Compliant Service Provider that services thousands of businesses in every state in the United States. Since 2000, PayJunction has rapidly become a leading developer and provider of cutting edge merchant technology. PayJunction has also formed strategic alliances with leading financial institutions and technology partners to deliver the most comprehensive services in the industry.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.png",
+			"humanURL": "http://payjunction.com/",
+			"baseURL": "https://example.com//",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HSBC",
+			"x-api-slug": "hsbc",
+			"description": "HSBC Holdings plc is a British multinational banking and financial services holding company, tracing its origin to a hong in Hong Kong. It is the worlds seventh largest bank by total assets and the largest in Europe with total assets of US$2.374 trillion (as of December 2016). It was established in its present form in London in 1991 by The Hongkong and Shanghai Banking Corporation to act as a new group holding company. The origins of the bank lie mainly in Hong Kong and to a lesser extent in Shanghai, where branches were first opened in 1865. The HSBC name is derived from the initials of the Hongkong and Shanghai Banking Corporation. The company was first formally incorporated in 1866. The company continues to see both the United Kingdom and Hong Kong as its home markets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HSBC-Logo.png",
+			"humanURL": "https://hsbc.com",
+			"baseURL": "https://api.hsbc.com/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/hsbc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lloyds Bank",
+			"x-api-slug": "lloyds-bank",
+			"description": "Lloyds Bank plc is a British retail and commercial bank with branches across England and Wales. It has traditionally been considered one of the Big Four clearing banks. The bank was founded in Birmingham in 1765. It expanded during the nineteenth and twentieth centuries and took over a number of smaller banking companies. In 1995 it merged with the Trustee Savings Bank and traded as Lloyds TSB Bank plc between 1999 and 2013.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lloyds_bank.png",
+			"humanURL": "https://lloydsbank.com",
+			"baseURL": "https://api.lloydsbank.com/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lloyds-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Barclays",
+			"x-api-slug": "barclays",
+			"description": "Barclays is a British multinational bank and financial services company headquartered in London. It is a universal bank with global reach, offering products and services across personal, corporate and investment banking, credit cards and wealth management. It has operations in over 40 countries and employs approximately 120,000 people. Barclays is organised into four core businesses: Personal &amp; Corporate (Personal Banking, Corporate Banking, Wealth &amp; Investment Management), Barclaycard, Investment Banking and Africa.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/barclays-logo.png",
+			"humanURL": "https://barclays.com",
+			"baseURL": "https://atlas.api.barclays/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/barclays/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Royal Bank of Scotland",
+			"x-api-slug": "royal-bank-of-scotland",
+			"description": "The Royal Bank of Scotland (Scottish Gaelic: Banca R&igrave;oghail na h-Alba, Scots: Ryal Baunk o Scotland, Welsh: Banc Brenhinol yr Alban), commonly abbreviated as RBS, is one of the retail banking subsidiaries of The Royal Bank of Scotland Group plc, together with NatWest and Ulster Bank. The Royal Bank of Scotland has around 700 branches, mainly in Scotland, though there are branches in many larger towns and cities throughout England and Wales. Both the bank and its parent, The Royal Bank of Scotland Group, are completely separate from the fellow Edinburgh-based bank, the Bank of Scotland, which pre-dates The Royal Bank of Scotland by 32 years.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png",
+			"humanURL": "https://www.rbs.com",
+			"baseURL": "https://openapi.rbs.co.uk/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/royal-bank-of-scotland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Santander Bank",
+			"x-api-slug": "santander-bank",
+			"description": "Santander Bank, N. A., formerly Sovereign Bank, is a wholly owned subsidiary of Spanish Santander Group. It is based in Boston and its principal market is the northeastern United States. It has $54.7 billion in deposits, operates about 650 retail banking offices and over 2,000 ATMs, and employs approximately 9,800 people. It offers an array of financial services and products including retail banking, mortgages, corporate banking, cash management, credit card, capital markets, trust and wealth management, and insurance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-santanderbank-com.jpg",
+			"humanURL": "https://www.santanderbank.com",
+			"baseURL": "https://openapi.santander.co.uk/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/santander-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NatWest",
+			"x-api-slug": "natwest",
+			"description": "National Westminster Bank, commonly known as NatWest, is a large retail and commercial bank in the United Kingdom. It was established in 1968 by the merger of National Provincial Bank (established 1833 as National Provincial Bank of England) and Westminster Bank (established 1834 as London County and Westminster Bank). Since 2000 it has been part of the Royal Bank of Scotland Group. Following ring-fencing of the Groups core domestic business, the bank is a direct subsidiary of NatWest Holdings. NatWest Markets comprises its investment banking arm.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/natwest-logo.png",
+			"humanURL": "https://personal.natwest.com/personal.html",
+			"baseURL": "https://openapi.natwest.com/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/natwest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nationwide Building Society",
+			"x-api-slug": "nationwide-building-society",
+			"description": "Nationwide Building Society is a British mutual financial institution and the largest building society in the world with over 15 million members. It has its headquarters in Swindon, with an office in Threadneedle Street, London, and administration centres based in Bournemouth, Northampton and Dunfermline. Made up of over a hundred mergers &mdash; most notably its merger with Anglia Building Society in 1987 and Portman Building Society in 2007 &mdash; Nationwide is now the second largest provider of household savings and mortgages in the UK.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nationwide-building-society.png",
+			"humanURL": "https://www.nationwide.co.uk/",
+			"baseURL": "https://openapi.nationwide.co.uk/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/nationwide-building-society/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bank of Ireland",
+			"x-api-slug": "bank-of-ireland",
+			"description": "Bank of Ireland Group plc is a public limited company incorporated in Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered number 593672. Bank of Ireland Group plc, whose shares are listed on the main markets of the Irish Stock Exchange plc and the London Stock Exchange plc , is the holding company of Bank of Ireland.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg",
+			"humanURL": "https://www.bankofireland.com/",
+			"baseURL": "https://openapi.bankofireland.com/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bank of Scotland",
+			"x-api-slug": "bank-of-scotland",
+			"description": "The Bank of Scotland is a commercial and clearing bank based in Edinburgh, Scotland. With a history dating to the 17th century, it is the fifth-oldest surviving bank in the United Kingdom (the Bank of England having been established one year before), and is the only commercial institution created by the Parliament of Scotland to remain in existence. It was one of the first banks in Europe to print its own banknotes and it continues to print its own sterling banknotes under legal arrangements which allow Scottish banks to issue currency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-scotland-logo.jpg",
+			"humanURL": "https://www.bankofscotland.co.uk/",
+			"baseURL": "https://api.bankofscotland.co.uk/open-banking/v2.1/",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-scotland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vinli",
+			"x-api-slug": "vinli",
+			"description": "Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg",
+			"humanURL": "http://vinli.com",
+			"baseURL": "https://events.vin.li//api/v1",
+			"tags": "Cards",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/vinli/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Cards",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "PayJunction",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/payjunction/apis.yaml"
+		},
+		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "HSBC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/hsbc/apis.yaml"
+		},
+		{
+			"name": "Lloyds Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lloyds-bank/apis.yaml"
+		},
+		{
+			"name": "Barclays",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/barclays/apis.yaml"
+		},
+		{
+			"name": "Royal Bank of Scotland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/royal-bank-of-scotland/apis.yaml"
+		},
+		{
+			"name": "Santander Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/santander-bank/apis.yaml"
+		},
+		{
+			"name": "NatWest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/natwest/apis.yaml"
+		},
+		{
+			"name": "Nationwide Building Society",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/nationwide-building-society/apis.yaml"
+		},
+		{
+			"name": "Bank of Ireland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-ireland/apis.yaml"
+		},
+		{
+			"name": "Bank of Scotland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/bank-of-scotland/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Vinli",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/vinli/apis.yaml"
+		}
+	]
+}

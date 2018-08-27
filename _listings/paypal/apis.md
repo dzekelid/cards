@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal
 x-kinRank: "10"
 x-alexaRank: "71"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PayPal (Sandbox) - Add Payment Card
+  x-api-slug: adaptiveaccountsaddpaymentcard-post
+  description: The AddPaymentCard API operation lets your application set up credit
+    cards as funding sources for PayPal accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/paypal/adaptiveaccountsaddpaymentcard-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://paylocity.api.gallery.streamdata.io

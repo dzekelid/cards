@@ -12,11 +12,88 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "23096"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ' - Create a credit/debit card entry for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridcards-post
+  description: Create a credit/debit card entry for a customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidcustomerscustomeridcards-post-openapi.md
+- name: ' - Update a credit/debit card record for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridcardscardid-post
+  description: Update a credit/debit card record for a customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidcustomerscustomeridcardscardid-post-openapi.md
+- name: ' - Delete a customer card'
+  x-api-slug: v3merchantsmidcustomerscustomeridcardscardid-delete
+  description: Delete a customer card.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidcustomerscustomeridcardscardid-delete-openapi.md
+- name: ' - Add employee cards'
+  x-api-slug: v3merchantsmidemployee-cards-post
+  description: .Add employee cards
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidemployee-cards-post-openapi.md
+- name: ' - Get employee cards'
+  x-api-slug: v3merchantsmidemployee-cards-get
+  description: .Get employee cards
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidemployee-cards-get-openapi.md
+- name: ' - Get employee card'
+  x-api-slug: v3merchantsmidemployee-cardsemployeecardid-get
+  description: .Get employee card
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidemployee-cardsemployeecardid-get-openapi.md
+- name: ' - Delete employee cards'
+  x-api-slug: v3merchantsmidemployee-cardsemployeecardid-delete
+  description: .Delete employee cards
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/clover/v3merchantsmidemployee-cardsemployeecardid-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloudflare.api.gallery.streamdata.io

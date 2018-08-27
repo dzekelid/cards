@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercards-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercards-get-openapi.md
+- name: Stripe - Add Customers Customer Cards
+  x-api-slug: customerscustomercards-post
+  description: Post Customers, Customer, Cards
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercards-post-openapi.md
+- name: Stripe - Delete Customers Customer Cards
+  x-api-slug: customerscustomercardsid-delete
+  description: Delete Customers, Customer, Cards
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-delete-openapi.md
 - name: Stripe - Get Customers Customer Cards
   x-api-slug: customerscustomercardsid-get
   description: Get Customers, Customer, Cards
@@ -42,6 +66,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-get-openapi.md
+- name: Stripe - Add Customers Customer Cards
+  x-api-slug: customerscustomercardsid-post
+  description: Post Customers, Customer, Cards
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/stripe/customerscustomercardsid-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io

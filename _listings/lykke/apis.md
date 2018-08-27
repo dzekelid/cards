@@ -7,11 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Cards
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Add API Bankcardpaymenturl
+  x-api-slug: apibankcardpaymenturl-post
+  description: Add api bankcardpaymenturl.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lykke/apibankcardpaymenturl-post-openapi.md
+- name: Wallet_Api - Get API Bankcardpaymenturlformvalues
+  x-api-slug: apibankcardpaymenturlformvalues-get
+  description: Get api bankcardpaymenturlformvalues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cards/master/_listings/lykke/apibankcardpaymenturlformvalues-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io

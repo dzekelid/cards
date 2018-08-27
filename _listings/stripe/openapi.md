@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Stripe
 x-complete: 1
@@ -337,4 +336,3 @@ paths:
       - Customers
       - Customer
       - Cards
----
